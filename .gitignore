@@ -1,0 +1,6 @@
+/build/
+/nbproject/private/
+agenda2.xml
+*~
+*.swp
+*.directory
