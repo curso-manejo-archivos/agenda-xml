@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+    Un ejemplo para utilizar ésta DTD en un XML
+
+    <?xml version="1.0"?>
+
+    <!DOCTYPE agenda SYSTEM "agenda.dtd">
+
+    <agenda>
+    ...
+    </agenda>
+-->
+
+<!--- Agenda debe de estar compuesta por al menos un elemento persona -->
+<!ELEMENT agenda (persona+)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT persona (nombres,apellidos,telefono,direccion)>
+<!ATTLIST persona
+    codigo ID #REQUIRED>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT nombres (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT apellidos (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT telefono (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT direccion (#PCDATA)>

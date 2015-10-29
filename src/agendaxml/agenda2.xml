@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE agenda SYSTEM "agenda.dtd">
+<agenda>
+    <persona codigo="p1">
+        <nombres>Fulano</nombres>
+        <apellidos>Perez</apellidos>
+        <telefono>123423</telefono>
+        <direccion>En algún lugar</direccion>
+    </persona>
+    <persona codigo="p2">
+        <nombres>Mengano</nombres>
+        <apellidos>Perez</apellidos>
+        <telefono>987351</telefono>
+        <direccion>En otro lugar</direccion>
+    </persona>
+</agenda>
